@@ -6,16 +6,16 @@
 
 body {
   font-family: 'Dancing Script', cursive;
+  background-color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
   height: 100vh;
   overflow: hidden;
   margin: 0;
 }
 
 .bg {
-  background-color: black;
   position: absolute;
   top: -30px;
   left: -30px;
@@ -25,9 +25,10 @@ body {
   filter: blur(0px);
 }
 
+
 .loading-text {
-  font-size: 150px;
+  font-size: 200px;
   color: #fff;
+  display: flex;
+  justify-content: flex-start;
 }
-
-
